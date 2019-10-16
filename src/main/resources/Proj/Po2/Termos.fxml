@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<BorderPane prefHeight="679.0" prefWidth="836.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TermosController">
+   <top>
+      <AnchorPane prefHeight="82.0" prefWidth="836.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextFlow layoutX="148.0" prefHeight="75.0" prefWidth="685.0" styleClass="imagem1" stylesheets="@imagem.css" textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Termos de Serviço" textAlignment="CENTER" wrappingWidth="388.4609375">
+                     <font>
+                        <Font name="Arial Black" size="38.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+            <Button layoutX="32.0" layoutY="15.0" mnemonicParsing="false" onAction="#SVoltar" prefHeight="35.0" prefWidth="65.0" text="Voltar" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="15.0" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <TabPane layoutY="2.0" prefHeight="594.0" prefWidth="836.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+                    <tabs>
+                      <Tab text="Objetivo">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TextFlow prefHeight="763.0" prefWidth="1017.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nós (o pessoal da MyCreator) estamos em uma missão para tornar a web um lugar melhor. Esperamos que você possa utilizar nossos produtos e serviços - desde ferramentas de publicação de sites a soluções de comércio eletrônico, sistemas de backup de segurança, ferramentas de gerenciamento para empresas globais e a próxima grande idéia que ainda nem pensamos - tanto quanto gostamos de criá-los.Estes Termos de Serviço (&quot;Termos&quot;) descrevem nossos compromissos com você e seus direitos e responsabilidades ao usar nossos serviços. Leia-os atentamente e entre em contato conosco se tiver alguma dúvida.Decidimos disponibilizar esses Termos sob uma licença Creative Commons Sharea . Você pode pegar uma cópia desses Termos e outros documentos legais no Github . Você pode copiá-los, adaptá-los e adaptá-los novamente para seu próprio uso. Apenas certifique-se de revisar o idioma para que seus Termos reflitam suas práticas reais. Além disso, se você usar esses Termos, gostaríamos de receber um crédito e um link para a MyCreator em algum lugar do seu site." textAlignment="CENTER" wrappingWidth="1020.0244140625">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab text="Termos de serviço">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TextFlow prefHeight="773.0" prefWidth="1028.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Estes Termos regem seu acesso e uso do Mycreator.Bem como todo o conteúdo e produtos e serviços da MyCreator disponíveis na aplicação.Estes Termos também regem o acesso e uso de visitantes de qualquer site que use nossos Serviços, como sites criados no MyCreator que são operados por nossos usuários.Nossos serviços são oferecidos sujeitos à sua aceitação, sem modificação, de todos os termos e condições aqui contidos e de todas as outras regras operacionais, políticas (incluindo, sem limitação, a Política de Privacidade da MyCreator) e procedimentos que podem ser publicados periodicamente . Você concorda que podemos atualizar automaticamente nossos Serviços, e o Contrato se aplicará a quaisquer atualizações.Leia o Contrato com atenção antes de acessar ou usar nossos Serviços. Ao acessar ou usar qualquer parte de nossos Serviços, você concorda em ficar vinculado pelo Contrato. Se você não concordar com todos os termos do Contrato, não poderá acessar ou usar nossos Serviços.">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                        <Tab text="Sua Conta">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TextFlow prefHeight="779.0" prefWidth="1034.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Onde o uso de nossos Serviços exigir uma conta, você concorda em nos fornecer informações completas e precisas ao se registrar em uma conta. Você será o único responsável por qualquer atividade que ocorra com o seu nome de usuário. Você é responsável por manter as informações da sua conta atualizadas e por manter sua senha segura.Você é responsável por manter a segurança da sua conta e de qualquer site, loja ou outro conteúdo relacionado ao Serviço, e é totalmente responsável por todas as atividades que ocorram na sua conta e por quaisquer outras ações tomadas em conexão com nossos Serviços. Você não deve compartilhar ou usar indevidamente suas credenciais de acesso. Você deve notificar-nos imediatamente sobre qualquer uso não autorizado da sua conta, loja ou site, ou de qualquer outra violação de segurança. Não seremos responsáveis ​​por quaisquer atos ou omissões por você, incluindo danos de qualquer tipo incorridos como resultado de tais atos ou omissões.Quando você cria uma conta no MyCreator consideramos que é uma consulta sobre nossos produtos e serviços, o que significa que podemos entrar em contato com você para compartilhar mais detalhes sobre o que temos para oferecer. Não se preocupe - se você não estiver interessado em aprender mais, pode desativar a comunicação de marketing, seja por email, telefonema ou mensagem de texto.">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab text="Requisitos de Idade Minima">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TextFlow prefHeight="780.0" prefWidth="1034.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nossos serviços não são direcionados a crianças. O acesso e o uso de nossos Serviços são apenas para maiores de 13 anos (ou 16 na União Europeia). Se você é mais jovem que isso, não pode se registrar ou usar nossos Serviços. Qualquer pessoa que se registre como usuário ou forneça suas informações pessoais aos nossos Serviços indica que tem 13 anos ou mais (ou 16 anos ou mais na União Europeia).">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab text="Responsabilidade dos visitantes e usuários">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TextFlow prefHeight="781.0" prefWidth="1034.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Não revisamos e não podemos revisar todo o conteúdo (como, sem limitação, texto, foto, vídeo, áudio, código, software de computador, itens à venda ou outros materiais) postados em nossos Serviços por usuários ou qualquer outra pessoa (&quot;Conteúdo&quot;) e não é responsável por qualquer uso ou efeito desse Conteúdo.Também não analisamos e não podemos revisar todo o material, incluindo software de computador, disponibilizado por meio de sites e páginas da web que apontam para o MyCreator ou para outros serviços.">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab text="Representação Geral e Garantia">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TextFlow prefHeight="781.0" prefWidth="1034.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Você declara e garante que seu uso de nossos Serviços:Estará em estrita conformidade com estes Termos;Cumprirá todas as leis e regulamentos aplicáveis ​​(incluindo, sem limitação, todas as leis aplicáveis ​​sobre conduta on-line e conteúdo aceitável, privacidade, proteção de dados e transmissão de dados técnicos exportados dos Estados Unidos ou do país em que você reside);Não usará os Serviços para fins ilegais, para publicar conteúdo ilegal ou promover atividades ilegais;Não infringirá ou desviará os direitos de propriedade intelectual de terceiros;Não sobrecarregará os sistemas da Automattic, conforme determinado por nós a nosso exclusivo critério;Não divulgará informações pessoais sensíveis de terceiros;Não será usado para enviar spam ou mensagens em massa não solicitadas;Não irá interferir, interromper ou atacar qualquer serviço ou rede; eNão será usado para criar, distribuir ou habilitar material que seja - ou facilite ou opere em conjunto com - malware, spyware, adware ou outros programas ou códigos maliciosos.">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab text="Propriedade Intelectual">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TextFlow prefHeight="780.0" prefWidth="1034.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="O Contrato não transfere da Automattic para você nenhuma propriedade intelectual da MyCreator ou de terceiros, e todos os direitos, títulos e interesses em tais propriedades permanecerão (como entre as partes) exclusivamente com a MyCreator,  o logotipo MyCreator e todas as outras marcas comerciais, marcas de serviço, gráficos e logotipos usados ​​em conexão com MyCreator ou nossos Serviços, são marcas comerciais ou marcas registradas dos licenciadores da MyCreator. Outras marcas comerciais, marcas de serviço, gráficos e logotipos usados ​​em conexão com nossos Serviços podem ser marcas comerciais de outros terceiros. Seu uso de nossos Serviços não concede nenhum direito ou licença para reproduzir ou usar qualquer marca registrada da MyCreator ou de terceiros.">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
